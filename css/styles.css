@@ -1,0 +1,14 @@
+.logo {
+    width: 180px;
+    height: 180px;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+    border-radius: 100px;
+}
+body {
+    background-image: url(../img/Fondo.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
