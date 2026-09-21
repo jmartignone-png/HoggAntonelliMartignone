@@ -108,18 +108,13 @@ body {
     flex-wrap: wrap;
     flex-direction: row;
    justify-content: space-between;
-   
-  
-
-
 }
+
 .catalogo{
   display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
-  
-
 }
 
 img{
@@ -147,11 +142,19 @@ img{
     background-color:#7fc8f86f;
     margin: 40px;
     border-radius: 10%;
+    border: solid, rgb(44, 112, 189);
+
 }
 
 .headapline {
-    width: 300px;
+    width: 700px;
     height: auto;
+    border-radius:10%;
+    border: solid, rgb(44, 112, 189);
+}
+
+.imagen_texto {
+    display: flex;
 }
 
 .reviews {
@@ -159,6 +162,10 @@ img{
     background-color:#7fc8f86f;
     margin: 50px;
     border-radius: 10%;
+    border: solid, rgb(44, 112, 189);
+    font-size: 20px;
+    padding: 30px;
+    line-height: 2.0;
 }
 
 .tags {
@@ -172,6 +179,9 @@ img{
 .tag {
     display: flex;
     justify-content: space-evenly;
+    font-size: 20px;
+    padding: 30px;
+    line-height: 2.0;
 }
 
 .titulo_tags {
@@ -179,6 +189,7 @@ img{
 }
 
 .texto_producto {
-    font-size: 18px;
-
+    font-size: 20px;
+    padding: 30px;
+    line-height: 2.0;
 }
