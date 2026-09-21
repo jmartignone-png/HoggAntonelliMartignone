@@ -137,3 +137,48 @@ img{
     align-items: center;
     border-bottom: solid 2px #7fc8f8;
 }
+
+.productoo {
+    display: flex;
+}
+
+.productooo {
+    padding: 40px;
+    background-color:#7fc8f86f;
+    margin: 40px;
+    border-radius: 10%;
+}
+
+.headapline {
+    width: 300px;
+    height: auto;
+}
+
+.reviews {
+    padding: 40px;
+    background-color:#7fc8f86f;
+    margin: 50px;
+    border-radius: 10%;
+}
+
+.tags {
+    text-align: center;
+    padding: 40px;
+    background-color:#0c80cd6f;
+    margin: 50px;
+    border-radius: 15%;
+}
+
+.tag {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.titulo_tags {
+    margin-bottom: 20px
+}
+
+.texto_producto {
+    font-size: 18px;
+
+}
