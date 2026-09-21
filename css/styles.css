@@ -168,12 +168,25 @@ img{
     line-height: 2.0;
 }
 
+.review_ {
+    border: solid,  rgb(44, 112, 189);
+    margin: 10px;
+    border-radius: 10%;
+    padding: 10px;
+}
+
+.estrellas {
+    width: 100%;
+    height: 70px;
+}
+
 .tags {
     text-align: center;
     padding: 40px;
     background-color:#0c80cd6f;
     margin: 50px;
     border-radius: 15%;
+    border: solid, rgb(44, 112, 189);
 }
 
 .tag {
@@ -193,3 +206,4 @@ img{
     padding: 30px;
     line-height: 2.0;
 }
+
