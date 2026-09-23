@@ -104,19 +104,23 @@ body {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-   justify-content: flex-start;
+    justify-content: flex-start;
 }
 
 .masvendidos h1 {
     width: 100%;
+    padding: 20px;
 }
 
 .masvendidos article {
     width: 23%;
     padding: 15px;
     margin-bottom: 25px;
-    border: solid 1px #7fc8f8 ;
+    border: solid 3px #004d9a ;
     margin-right: 2%;
+    line-height: 1.5;
+    border-radius: 10%;
+    background-color: rgba(57, 149, 225, 0.137);
 }
 
 .catalogo{
@@ -127,15 +131,20 @@ body {
     justify-content: flex-start;
 }
 .catalogo h1{
+    padding: 20px;
     width: 100%;
+
 }
 
 .catalogo article {
     width: 23%;
     padding: 15px;
     margin-bottom: 25px;
-    border: solid 1px #7fc8f8;
+    border: solid 3px #004d9a ;
     margin-right: 2%;
+    line-height: 1.5;
+    border-radius: 10%;
+    background-color: rgba(57, 149, 225, 0.137);
 }
 
 .masvendidos img,
@@ -168,7 +177,7 @@ body {
 
 }
 
-.headapline {
+.headalpine {
     width: 700px;
     height: auto;
     border-radius:10%;
@@ -265,4 +274,15 @@ body {
 
 .terminos {
     font-size: 19px
+}
+
+/*Search Results*/
+
+.todobusqueda {
+    display: flex;
+}
+
+.resultados {
+    display: flex;
+    margin: 30px;
 }
