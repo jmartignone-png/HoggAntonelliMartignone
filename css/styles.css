@@ -105,6 +105,7 @@ body {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: flex-start;
+    padding: 30px;
 }
 
 .masvendidos h1 {
@@ -112,40 +113,35 @@ body {
     padding: 20px;
 }
 
-.masvendidos article {
-    width: 23%;
-    padding: 15px;
-    margin-bottom: 25px;
-    border: solid 3px #004d9a ;
+.masvendidos article,
+.catalogo article {
+    width: 25%;
     margin-right: 2%;
-    line-height: 1.5;
-    border-radius: 10%;
-    background-color: rgba(57, 149, 225, 0.137);
+    margin-bottom: 25px;
+    padding: 15px;
+    border: solid 1px #7fc8f8;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    
 }
 
-.catalogo{
+.catalogo {
     width: 100%;
-  display: flex;
+    display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: flex-start;
+    padding: 30px;
 }
+
 .catalogo h1{
     padding: 20px;
     width: 100%;
 
 }
 
-.catalogo article {
-    width: 23%;
-    padding: 15px;
-    margin-bottom: 25px;
-    border: solid 3px #004d9a ;
-    margin-right: 2%;
-    line-height: 1.5;
-    border-radius: 10%;
-    background-color: rgba(57, 149, 225, 0.137);
-}
+
 
 .masvendidos img,
 .catalogo img {
@@ -286,3 +282,17 @@ body {
     display: flex;
     margin: 30px;
 }
+
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #dff3ff;
+    border-top: solid 2px #7fc8f8;
+    color: #16425b;
+}
+
+
+
