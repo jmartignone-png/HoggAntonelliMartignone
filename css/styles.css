@@ -142,7 +142,6 @@ body {
 }
 
 
-
 .masvendidos img,
 .catalogo img {
     width: 150px;
@@ -160,11 +159,13 @@ body {
     border-bottom: solid 2px #7fc8f8;
 }
 
-.productoo {
+/*PAGINA PRODUCTO INDIVIDUAL*/
+
+.PaginaProducto {
     display: flex;
 }
 
-.productooo {
+.Producto {
     padding: 40px;
     background-color:#7fc8f86f;
     margin: 40px;
@@ -173,15 +174,43 @@ body {
 
 }
 
-.headalpine {
+.Producto img {
     width: 700px;
     height: auto;
     border-radius:10%;
     border: solid rgb(44, 112, 189);
 }
 
+.Producto p {
+    font-size: 20px;
+    padding: 5px;
+    line-height: 2.0;
+    margin-left: 10px;
+}
+
 .imagen_texto {
     display: flex;
+}
+
+.tags {
+    text-align: center;
+    padding: 40px;
+    background-color:#0c80cd6f;
+    margin: 50px;
+    border-radius: 15%;
+    border: solid rgb(44, 112, 189);
+}
+
+.tags h2 {
+    margin-bottom: 20px
+}
+
+.tags ul {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+    padding: 30px;
+    line-height: 2.0;
 }
 
 .reviews {
@@ -195,51 +224,27 @@ body {
     line-height: 2.0;
 }
 
-.review_ {
+.review {
     border: solid rgb(44, 112, 189);
     margin: 10px;
     border-radius: 10%;
     padding: 10px;
 }
 
-.estrellas {
+.review img {
     width: 100%;
     height: 70px;
 }
 
-.tags {
-    text-align: center;
-    padding: 40px;
-    background-color:#0c80cd6f;
-    margin: 50px;
-    border-radius: 15%;
-    border: solid rgb(44, 112, 189);
-}
+/* FIN PAGINA PRODUCTO INDIVIDUAL*/
 
-.tag {
-    display: flex;
-    justify-content: space-evenly;
-    font-size: 20px;
-    padding: 30px;
-    line-height: 2.0;
-}
+/*REGISTER*/
 
-.titulo_tags {
-    margin-bottom: 20px
-}
-
-.texto_producto {
-    font-size: 20px;
-    padding: 30px;
-    line-height: 2.0;
-}
-
-
-.register {
+.registerLogin {
     display: flex;
 }
 
-.contenedorForm {
+.formulario { /*Login y Register*/
     display: flex;
     justify-content: center;
     align-items: center;
@@ -247,7 +252,7 @@ body {
     flex: 1;
 }  
 
-.form {
+.formulario form {
     border: solid rgb(44, 112, 189);
     background-color:  rgba(68, 138, 218, 0.16); 
     border-radius: 10%;
@@ -256,7 +261,7 @@ body {
     line-height: 1.5
 }
 
-.boton_form {
+.formulario button {
     font-size: 20px;
     width: 90%;
     height: 50px;
@@ -264,13 +269,16 @@ body {
     background-color: rgba(1, 130, 189, 0.376);
 }
 
-.tengocuenta {
+.formulario a {
     font-size: 17px;
 }
 
 .terminos {
     font-size: 19px
 }
+/* FIN REGISTER */
+
+
 
 /*Search Results*/
 
