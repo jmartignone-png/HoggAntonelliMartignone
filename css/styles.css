@@ -104,17 +104,42 @@ body {
 }
 
 .masvendidos {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-   justify-content: space-between;
+   justify-content: flex-start;
+}
+
+.masvendidos h1 {
+    width: 100%;
+}
+
+.masvendidos article {
+    width: 23%;
+    padding: 15px;
+    margin-bottom: 25px;
+    border: solid 1px #7fc8f8 ;
+    margin-right: 2%;
 }
 
 .catalogo{
+    width: 100%;
   display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-start;
+}
+.catalogo h1{
+    width: 100%;
+}
+
+.catalogo article {
+    width: 23%;
+    padding: 15px;
+    margin-bottom: 25px;
+    border: solid 1px #7fc8f8;
+    margin-right: 2%;
 }
 
 img{
