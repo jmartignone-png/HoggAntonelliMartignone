@@ -138,7 +138,8 @@ body {
     margin-right: 2%;
 }
 
-img{
+.masvendidos img,
+.catalogo img {
     width: 150px;
     height: 150px;
 }
@@ -163,7 +164,7 @@ img{
     background-color:#7fc8f86f;
     margin: 40px;
     border-radius: 10%;
-    border: solid, rgb(44, 112, 189);
+    border: solid rgb(44, 112, 189);
 
 }
 
@@ -171,7 +172,7 @@ img{
     width: 700px;
     height: auto;
     border-radius:10%;
-    border: solid, rgb(44, 112, 189);
+    border: solid rgb(44, 112, 189);
 }
 
 .imagen_texto {
@@ -183,14 +184,14 @@ img{
     background-color:#7fc8f86f;
     margin: 50px;
     border-radius: 10%;
-    border: solid, rgb(44, 112, 189);
+    border: solid rgb(44, 112, 189);
     font-size: 20px;
     padding: 30px;
     line-height: 2.0;
 }
 
 .review_ {
-    border: solid,  rgb(44, 112, 189);
+    border: solid rgb(44, 112, 189);
     margin: 10px;
     border-radius: 10%;
     padding: 10px;
@@ -207,7 +208,7 @@ img{
     background-color:#0c80cd6f;
     margin: 50px;
     border-radius: 15%;
-    border: solid, rgb(44, 112, 189);
+    border: solid rgb(44, 112, 189);
 }
 
 .tag {
@@ -242,7 +243,7 @@ img{
 }  
 
 .form {
-    border: solid,  rgb(44, 112, 189);
+    border: solid rgb(44, 112, 189);
     background-color:  rgba(68, 138, 218, 0.16); 
     border-radius: 10%;
     padding: 20px;
