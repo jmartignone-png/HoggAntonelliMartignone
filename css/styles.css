@@ -247,5 +247,22 @@ body {
     background-color:  rgba(68, 138, 218, 0.16); 
     border-radius: 10%;
     padding: 20px;
+    text-align: center;
+    line-height: 1.5
 }
 
+.boton_form {
+    font-size: 20px;
+    width: 90%;
+    height: 50px;
+    margin: 5px;
+    background-color: rgba(1, 130, 189, 0.376);
+}
+
+.tengocuenta {
+    font-size: 17px;
+}
+
+.terminos {
+    font-size: 19px
+}
