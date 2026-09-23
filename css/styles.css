@@ -232,3 +232,23 @@ img{
     line-height: 2.0;
 }
 
+
+.register {
+    display: flex;
+}
+
+.contenedorForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    flex: 1;
+}  
+
+.form {
+    border: solid,  rgb(44, 112, 189);
+    background-color:  rgba(68, 138, 218, 0.16); 
+    border-radius: 10%;
+    padding: 20px;
+}
+
