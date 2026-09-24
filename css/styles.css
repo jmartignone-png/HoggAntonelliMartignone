@@ -159,7 +159,7 @@ body {
     border-bottom: solid 2px #7fc8f8;
 }
 
-/*PAGINA PRODUCTO INDIVIDUAL*/
+
 
 .PaginaProducto {
     display: flex;
@@ -236,9 +236,7 @@ body {
     height: 70px;
 }
 
-/* FIN PAGINA PRODUCTO INDIVIDUAL*/
 
-/*REGISTER*/
 
 .registerLogin {
     display: flex;
@@ -276,11 +274,6 @@ body {
 .terminos {
     font-size: 19px
 }
-/* FIN REGISTER */
-
-
-
-/*Search Results*/
 
 .todobusqueda {
     display: flex;
@@ -367,7 +360,7 @@ footer {
     margin-bottom: 10px;
 }
 
-.resultadosBusqueda > p {
+.resultadosBusqueda p {
     color: #16425b;
     margin-bottom: 25px;
 }
