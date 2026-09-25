@@ -1,16 +1,21 @@
-*{
-box-sizing: border-box;
-padding: 0;
-margin: 0;
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
-a{
+
+a {
     text-decoration: none;
 
 }
-ol, ul, li{
+
+ol,
+ul,
+li {
 
     list-style-type: none;
 }
+
 .logo {
     width: 180px;
     height: 180px;
@@ -60,6 +65,7 @@ ol, ul, li{
     border: solid 1px #1d70a2;
     font-weight: bold;
 }
+
 .contenidoPagina {
     width: 100%;
     display: flex;
@@ -82,7 +88,7 @@ ol, ul, li{
     flex-direction: column;
 }
 
-.categorias a { 
+.categorias a {
     color: #16425b;
     font-size: 14px;
 }
@@ -123,7 +129,7 @@ body {
     background-color: #ffffff;
     display: flex;
     flex-direction: column;
-    
+
 }
 
 .catalogo {
@@ -135,7 +141,7 @@ body {
     padding: 30px;
 }
 
-.catalogo h1{
+.catalogo h1 {
     padding: 20px;
     width: 100%;
 
@@ -167,7 +173,7 @@ body {
 
 .Producto {
     padding: 40px;
-    background-color:#7fc8f86f;
+    background-color: #7fc8f86f;
     margin: 40px;
     border-radius: 10%;
     border: solid rgb(44, 112, 189);
@@ -177,7 +183,7 @@ body {
 .Producto img {
     width: 700px;
     height: auto;
-    border-radius:10%;
+    border-radius: 10%;
     border: solid rgb(44, 112, 189);
 }
 
@@ -195,7 +201,7 @@ body {
 .tags {
     text-align: center;
     padding: 40px;
-    background-color:#0c80cd6f;
+    background-color: #0c80cd6f;
     margin: 50px;
     border-radius: 15%;
     border: solid rgb(44, 112, 189);
@@ -215,7 +221,7 @@ body {
 
 .reviews {
     padding: 40px;
-    background-color:#7fc8f86f;
+    background-color: #7fc8f86f;
     margin: 50px;
     border-radius: 10%;
     border: solid rgb(44, 112, 189);
@@ -242,17 +248,17 @@ body {
     display: flex;
 }
 
-.formulario { /*Login y Register*/
+.formulario {
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 30px;
     flex: 1;
-}  
+}
 
 .formulario form {
     border: solid rgb(44, 112, 189);
-    background-color:  rgba(68, 138, 218, 0.16); 
+    background-color: rgba(68, 138, 218, 0.16);
     border-radius: 10%;
     padding: 20px;
     text-align: center;
@@ -317,7 +323,7 @@ footer {
     background-color: #ffffff;
     display: flex;
     flex-direction: column;
-   
+
     ;
 }
 
@@ -387,7 +393,7 @@ footer {
 .resultados img {
     width: 150px;
     height: 150px;
-    margin: 0 ;
+    margin: 0;
 }
 
 .resultados h2 {
