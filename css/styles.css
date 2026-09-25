@@ -270,7 +270,6 @@ body {
     border-radius: 10%;
     padding: 20px;
     text-align: center;
-    line-height: 1.5
 }
 
 .formulario button {
@@ -453,16 +452,16 @@ footer {
     .resultados article {
         width: 100%;
     }
-}
 
-@media (max-width: 480px) {
+
 
     .registerLogin {
         flex-direction: column;
     }
-}
 
-@media(max-width: 480px){
+
+
+
 
 .PaginaProducto {
         flex-direction: column;
@@ -484,6 +483,9 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.tags ul{
+    flex-direction: column;
 }
 
 }
