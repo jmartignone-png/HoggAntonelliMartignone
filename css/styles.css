@@ -105,23 +105,47 @@ body {
     background-attachment: fixed;
 }
 
-.masvendidos {
+.masvendidos,
+.catalogo {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: flex-start;
-    padding: 30px;
 }
 
-.masvendidos h1 {
+
+.masvendidos h1,
+.catalogo h1 {
     width: 100%;
     padding: 20px;
 }
 
+.masvendidos h3,
+.catalogo h3 {
+    color: #16425b;
+    font-size: 17px;
+}
+
+.masvendidos h4,
+.catalogo h4 {
+    font-size: 19px;
+    color: #16425b;
+}
+
+.masvendidos a,
+.catalogo a {
+    padding: 10px;
+    background-color: #1d70a2;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
+
 .masvendidos article,
 .catalogo article {
-    width: 25%;
+    width: 30%;
     margin-right: 2%;
     margin-bottom: 25px;
     padding: 15px;
@@ -129,29 +153,13 @@ body {
     background-color: #ffffff;
     display: flex;
     flex-direction: column;
-
-}
-
-.catalogo {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: flex-start;
-    padding: 30px;
-}
-
-.catalogo h1 {
-    padding: 20px;
-    width: 100%;
-
 }
 
 
 .masvendidos img,
 .catalogo img {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
 }
 
 .header {
@@ -328,8 +336,8 @@ footer {
 }
 
 .productosCategoria img {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     margin: 0;
 }
 
@@ -354,6 +362,7 @@ footer {
     color: white;
     font-weight: bold;
     text-align: center;
+    margin-top: 10px;
 }
 
 .resultadosBusqueda {
