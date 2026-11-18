@@ -24,6 +24,7 @@
         <form action="./search'results.html" method="get">
             <input type="text" name="busqueda" value="">
             <button type="submit">Buscar</button>
+            <p class="errorBusqueda"></p>
         </form>
 
     </header>
@@ -33,33 +34,26 @@
         <ul>
         </ul>
     </nav>
-    <main class="resultadosBusqueda">
-        <h1>Resultados de la búsqueda</h1>
-        <p>Resultados para "Salomon"</p>
-         <p class="sinResultados">
-            No se encontraron resultados para la búsqueda
-        </p>
-        <div class="resultados">
-            <article>
-                <h2>Salomon QST 94</h2>
-                <img src="./img/producto_1.jpg" alt="Esquies Salomon QST 94">
-                <p>$850</p>
-                <a href="./product.html">Ver detalle</a>
-            </article>
+    
+<main class="resultadosBusqueda">
 
-            <article>
-                <h2>Salomon PowderX Freeride</h2>
-                <img src="./img/producto7.jpeg" alt="Esquies Salomon PowderX Freeride">
-                <p>$1.020</p>
-                <a href="./product.html">Ver detalle</a>
-            </article>
-        </div>
+    <h1>Resultados de búsqueda</h1>
 
-    </main>
+    <p class="terminoBuscado"></p>
+
+    <p class="sinResultados"></p>
+
+    <div class="resultados">
+    </div>
+
+</main>
+
 </div>    
     <footer>
         <p>Juan José Martignone, Tiago Antonelli, Emma Hogg</p>
     </footer>
 <script src="./js/categorias.js"></script>
+<script src="./js/search-results.js"></script>
+<script src="./js/buscador.js"></script>
 </body>
 </html>

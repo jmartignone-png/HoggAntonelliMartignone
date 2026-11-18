@@ -491,3 +491,12 @@ footer {
 }
 
 }
+.errorBusqueda {
+    color: red;
+    font-size: 14px;
+}
+
+.resultadosBusqueda .terminoBuscado {
+    font-size: 18px;
+    color: #16425b;
+}
