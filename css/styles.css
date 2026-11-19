@@ -49,6 +49,7 @@ li {
     width: 35%;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .header form input {
@@ -494,6 +495,7 @@ footer {
 .errorBusqueda {
     color: red;
     font-size: 14px;
+    width: 100%;
 }
 
 .resultadosBusqueda .terminoBuscado {
