@@ -3,9 +3,8 @@ let formularioBusqueda = document.querySelector('.header form');
 let campoBusqueda = document.querySelector('.header form input');
 let errorBusqueda = document.querySelector('.errorBusqueda');
 
-formularioBusqueda.addEventListener('submit', function(e) {
-
-    e.preventDefault();
+formularioBusqueda.addEventListener('submit', function(event) {
+    event.preventDefault();
 
     if (campoBusqueda.value.trim() == '') {
 
