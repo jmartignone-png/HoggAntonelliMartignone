@@ -502,3 +502,8 @@ footer {
     font-size: 18px;
     color: #16425b;
 }
+.error {
+    color: red;
+    font-size: 16px;
+    margin: 10px;
+}
