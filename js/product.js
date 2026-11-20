@@ -1,4 +1,5 @@
-let parametros = new URLSearchParams(location.search);
+let queryString = location.search
+let parametros = new URLSearchParams(queryString);
 let id = parametros.get('id');
 
 fetch('https://dummyjson.com/products/' + id)

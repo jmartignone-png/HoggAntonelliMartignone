@@ -10,7 +10,7 @@ fetch('https://dummyjson.com/products/categories')
 
             lista.innerHTML += `
                 <li>
-                    <a href="./category.html?categoria=${data[i].slug}">${data[i].name}</a>
+                    <a href="./category.html?categoria=${data[i].name}&url=${data[i].url}">${data[i].name}</a>
                 </li>
             `;
         }
