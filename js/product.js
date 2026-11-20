@@ -20,7 +20,7 @@ fetch('https://dummyjson.com/products/' + id)
         datos[0].innerText = `Marca: ${data.brand}`;
         datos[1].innerText = data.description;
         datos[2].innerText = `Precio: $${data.price}`;
-        datos[3].innerHTML = `Categoría: <a href="./category.html?categoria=${data.category}">${data.category}</a>`;
+        datos[3].innerHTML = `Categoría: <a href="./category.html?categoria=${data.category}&url=https://dummyjson.com/products/category/${data.category}">${data.category}</a>`;
         datos[4].innerText = `Stock: ${data.stock} unidades`;
 
         listaTags.innerHTML = '';

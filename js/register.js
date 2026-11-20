@@ -21,10 +21,10 @@ formulario.addEventListener('submit', function(event) {
 
         error.innerText = 'Las contraseñas no coinciden';
 
-    } else {
+        } else {
 
         error.innerText = '';
-        this.submit();
+        location.href = './login.html';
 
     }
 });
