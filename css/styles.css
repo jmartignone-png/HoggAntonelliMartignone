@@ -207,6 +207,10 @@ body {
     display: flex;
 }
 
+.imagen_texto img {
+    width: 400px;
+}
+
 .tags {
     text-align: center;
     padding: 40px;
