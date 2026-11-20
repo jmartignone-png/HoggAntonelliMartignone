@@ -507,3 +507,8 @@ footer {
     font-size: 16px;
     margin: 10px;
 }
+.navegacion li {
+    color: #0d3b66;
+    font-size: 16px;
+    font-weight: bold;
+}
