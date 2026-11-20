@@ -20,7 +20,7 @@ fetch(url)
                 <article>
                     <h2>${data.products[i].title}</h2>
                     <img src="${data.products[i].images[0]}" alt="producto">
-                    <h3>${data.products[i].price}</h3>
+                    <h3>$${data.products[i].price}</h3>
                     <p>${data.products[i].description}</p>
                     <a href="./product.html?id=${data.products[i].id}">VER DETALLE</a>
                 </article>

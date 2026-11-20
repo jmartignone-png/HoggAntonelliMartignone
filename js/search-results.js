@@ -29,7 +29,7 @@ fetch('https://dummyjson.com/products/search?q=' + busqueda)
                 resultados.innerHTML += `
                     <article>
                         <h2>${data.products[i].title}</h2>
-                        <img src="${data.products[i].thumbnail}" alt="producto">
+                        <img src="${data.products[i].images[0]}" alt="producto">
                         <p>$${data.products[i].price}</p>
                         <a href="./product.html?id=${data.products[i].id}">Ver detalle</a>
                     </article>
